@@ -1,0 +1,52 @@
+.images {
+  font-family: roboto, calibri;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  justify-content: center;
+  perspective: 600;
+  background-color: transparent;
+}
+
+.figureCard {
+  border-radius: 1rem;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.frontFace img {
+  width: 150px;
+  height: 150px;
+  border-radius: 1rem;
+}
+
+.frontFace,
+.backFace {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.backFace {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+.figureCard:hover {
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.734);
+  transform: rotateY(180deg);
+}

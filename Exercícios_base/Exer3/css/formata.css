@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, calibri;
+}
+
+header {
+  background-color: orange;
+  height: 3rem;
+  width: 100%;
+}
+
+main {
+  padding: 10px;
+  padding-bottom: 2.5rem;
+  display: block;
+  margin: auto;
+}
+
+.comparePlans {
+  float: left;
+  width: 200px;
+  height: 595px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 0 10px 10px 0rem;
+  margin-right: 0.5rem;
+}
+
+.plansDescription {
+  float: left;
+  width: 800px;
+  height: 100%;
+  display: block;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.plan1,
+.plan2 {
+  border: 2px solid red;
+  border-radius: 10px;
+  box-shadow: 20px 20px 36px -7px rgba(255, 0, 0, 0.658);
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+.plan2 {
+  border: 2px solid yellow;
+  box-shadow: 20px 20px 36px -7px rgba(255, 255, 0, 0.575);
+}
+
+.plan1 img,
+.plan2 img {
+  width: 5rem;
+}
+
+.plan1 h1,
+.plan2 h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.plan1 p,
+.plan2 p {
+  margin-bottom: 5px;
+}
+
+.plan1 h3,
+.plan2 h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.plan1 ul,
+.plan2 ul {
+  margin-left: 20px;
+}
+
+.choosePlan {
+  clear: both;
+  padding: 10px;
+  margin: 20px 0px;
+  border: 2px solid black;
+  width: 1000px;
+  text-align: center;
+  border-radius: 0 10px 10px 10px;
+}
+
+.choosePlan label {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.choosePlan button {
+  margin-top: 5px;
+  text-align: center;
+  padding: 3px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #001427;
+  color: whitesmoke;
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  clear: both;
+}
+
+footer img {
+  margin-top: 10px;
+  margin-left: 2px;
+  cursor: pointer;
+}
